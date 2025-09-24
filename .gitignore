@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+.envrc
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lab/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage and caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.mypy_cache/
+.pytype/
+
+# Matplotlib cache
+.matplotlib/
+
+# Data outputs (keep input CSV; ignore generated plots)
+data/plot/
+data/*.png
+
+# Logs
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+```// filepath: /Users/benjaminauger/Documents/lyon/prosit/3_prosit/CPU_Analysis/.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+.envrc
+pip-wheel-metadata/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lab/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage and caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.mypy_cache/
+.pytype/
+
+# Matplotlib cache
+.matplotlib/
+
+# Data outputs (keep input CSV; ignore generated plots)
+data/plot/
+data/*.png
+
+# Logs
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
