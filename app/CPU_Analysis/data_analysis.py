@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 from scipy import stats
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List
 import sys
 import os
 

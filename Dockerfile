@@ -15,6 +15,9 @@ RUN pip install --upgrade pip && pip install -e CPU_Analysis[dev]
 # Copy the entire CPU_Analysis
 COPY app/CPU_Analysis ./CPU_Analysis
 
+COPY requirements.txt /app/
+RUN /usr/local/bin/python3 -m pip install -r /app/requirements.txt
+
 EXPOSE 8888
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--NotebookApp.token=", "--NotebookApp.password="]
